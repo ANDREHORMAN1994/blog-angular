@@ -8,16 +8,16 @@ import { IArticle } from 'src/app/utils/types';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnChanges {
-	@Input() news!: IArticle[];
+	@Input() new!: IArticle;
 	@Input() isLoading!: boolean;
-	new: IArticle | null = null;
+	@Input() colorTitle!: string;
 	placeholderImg: string = '/assets/placeholder.png';
 	date: Date = new Date();
 
-	ngOnChanges({ news, isLoading }: SimpleChanges): void {
-		if (!isLoading.currentValue) {
-			this.new = news.currentValue[0];
-			this.date = formatDate(news.currentValue[0].publishedAt);
+	ngOnChanges(change: SimpleChanges): void {
+		console.log(change, change["new"], change["isLoading"]);
+		if (!change["isLoading"].currentValue) {
+			this.date = formatDate(change["new"].currentValue.publishedAt);
 		}
 	}
 }

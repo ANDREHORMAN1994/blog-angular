@@ -1,1 +1,16 @@
-<p>carousel-news works!</p>
+<div class="carousel-news__container">
+	<div class="container">
+		<h1><span>+</span> Notícias</h1>
+		<div class="carousel-news__cards">
+			<ng-container *ngFor="let new of news">
+				<app-big-card
+					class="carousel-news__card"
+					[colorTitle]="colorTitle"
+					[new]="new"
+					[isLoading]="isLoading"
+					*ngIf="new.urlToImage"
+				/>
+			</ng-container>
+		</div>
+	</div>
+</div>

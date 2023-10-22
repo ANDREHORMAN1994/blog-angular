@@ -1,3 +1,7 @@
+div.home__main {
+	height: 100%;
+}
+
 div.articles__container {
 	display: flex;
 	flex-flow: row nowrap;
