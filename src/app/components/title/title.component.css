@@ -4,11 +4,13 @@ div.title__container {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin-top: 0;
 }
 
 div.title__container > h1 {
 	font-size: 10rem;
 	font-weight: 1000;
+	margin: 0;
 }
 
 div.title__container > h1:hover {

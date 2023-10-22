@@ -18,19 +18,21 @@ div.small-card__content {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: .8rem;
+	gap: .5rem;
 }
 
 div.small-card__content > p {
 	color: #363636;
 	font-size: .8rem;
 	font-weight: 600;
+	margin: 0;
 }
 
 div.small-card__content > a > h1 {
 	color: #cdcdcd;
 	font-size: 1.5rem;
 	font-weight: 600;
+	margin: 0;
 }
 
 div.small-card__content > a > h1:hover {
