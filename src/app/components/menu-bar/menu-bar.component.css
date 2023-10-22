@@ -43,10 +43,16 @@ div.menu-bar__container > ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: end;
+	align-items: flex-end;
 	gap: 1rem;
 	list-style: none;
 	margin: 0;
+}
+
+div.menu-bar__container > ul > li {
+	margin: 0;
+	padding: 0;
+	height: 20px;
 }
 
 div.menu-bar__container > ul > li > a, span {
