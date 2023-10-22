@@ -1,14 +1,32 @@
-<div class="big-card__container">
+<div class="big-card__container" *ngIf="!isLoading; else default" >
 	<div class="big-card__photo">
-		<img src="{{placeholderImg}}" alt="Imagem padrão">
+		<img src="{{new?.urlToImage}}" alt="{{new?.title}}">
 		<p>{{date.toDateString()}}</p>
 	</div>
 	<div class="big-card__content">
-		<a href="#">
+		<a href="{{new?.url}}" target="_blank">
 			<h1>
-				lorem ipsum dolor sit amet, consectetur adipiscing elit. sed
+				{{new?.title}}
 			</h1>
 		</a>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fugit ipsum perspiciatis earum explicabo atque. Placeat repudiandae sapiente commodi maiores atque in cupiditate. Aut provident illo error amet voluptatum?</p>
+		<p>{{new?.description}}</p>
 	</div>
 </div>
+
+<ng-template #default >
+	<div class="overlay"></div>
+	<div class="big-card__container">
+		<div class="big-card__photo">
+			<img src="{{placeholderImg}}" alt="Imagem padrão">
+			<p>{{date.toDateString()}}</p>
+		</div>
+		<div class="big-card__content">
+			<a href="#">
+				<h1>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit. sed
+				</h1>
+			</a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fugit ipsum perspiciatis earum explicabo atque. Placeat repudiandae sapiente commodi maiores atque in cupiditate. Aut provident illo error amet voluptatum?</p>
+		</div>
+	</div>
+</ng-template>

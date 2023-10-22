@@ -1,3 +1,14 @@
+div.overlay {
+	background-color: #000;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0.9;
+}
+
 div.big-card__container {
 	display: flex;
 	flex-direction: column;
@@ -17,6 +28,9 @@ div.big-card__photo {
 
 div.big-card__photo > img {
 	width: 35rem;
+	height: 22rem;
+	object-fit: cover;
+	object-position: top;
 }
 
 div.big-card__photo > p {

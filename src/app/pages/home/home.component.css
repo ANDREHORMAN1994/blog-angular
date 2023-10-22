@@ -1,7 +1,7 @@
 div.articles__container {
 	display: flex;
 	flex-flow: row nowrap;
-	gap: 4rem;
+	gap: 5rem;
 	justify-content: center;
 	align-items: flex-start;
 }

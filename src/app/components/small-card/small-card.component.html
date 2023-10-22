@@ -1,11 +1,25 @@
-<div class="small-card__container">
+<div class="small-card__container" *ngIf="!isLoading; else default">
 	<div class="small-card__photo">
-		<img src="{{placeholderImg}}" alt="Imagem padrão">
+		<img src="{{new.urlToImage}}" alt="{{new.title}}">
 	</div>
 	<div class="small-card__content">
 		<p>{{date.toDateString()}}</p>
-		<a href="#">
-			<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dignissimos laboriosam reiciendis aut suscipit quaerat amet vel quisquam facilis!</h1>
+		<a href="{{new.url}}" target="_blank">
+			<h1>{{new.title}}</h1>
 		</a>
 	</div>
 </div>
+
+<ng-template #default >
+	<div class="small-card__container">
+		<div class="small-card__photo">
+			<img src="{{placeholderImg}}" alt="Imagem padrão">
+		</div>
+		<div class="small-card__content">
+			<p>{{date.toDateString()}}</p>
+			<a href="#">
+				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dignissimos laboriosam reiciendis aut suscipit quaerat amet vel quisquam facilis!</h1>
+			</a>
+		</div>
+	</div>
+</ng-template>
