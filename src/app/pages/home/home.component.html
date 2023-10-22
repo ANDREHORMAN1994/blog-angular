@@ -4,6 +4,12 @@
 	<div class="articles__main">
 		<app-big-card [news]="news" [isLoading]="isLoading" />
 	</div>
+	<!-- <div class="articles__others">
+		<ng-container *ngFor="let new of news.slice(0, 3); let last = last" >
+			<app-small-card [new]="new" [isLoading]="isLoading" />
+			<hr *ngIf="!last" />
+		</ng-container>
+	</div> -->
 	<div class="articles__others">
 		<app-small-card [new]="news[1]" [isLoading]="isLoading" />
 		<hr />

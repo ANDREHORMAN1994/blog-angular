@@ -17,7 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
     FormsModule,
 		PagesModule,
   ],
-  providers: [],
+	providers: [],
   bootstrap: [AppComponent]
 })
 

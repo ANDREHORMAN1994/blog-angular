@@ -8,6 +8,9 @@ div.small-card__container {
 
 div.small-card__photo > img {
 	width: 15rem;
+	height: 9rem;
+	object-fit: cover;
+	object-position: top;
 }
 
 div.small-card__content {
