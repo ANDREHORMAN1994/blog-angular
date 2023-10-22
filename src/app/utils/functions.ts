@@ -1,7 +1,7 @@
 import { IArticle } from "./types";
+import { environment } from '../../environments/environment';
 
-const apiKey = '2014137f0f5f4b1aa2d6e4212b2fbb49';
-const endpoint= `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
+const endpoint= `https://newsapi.org/v2/top-headlines?country=us&apiKey=${environment.apiKey}`;
 
 export const requestNewsApi = async (): Promise<IArticle[] | null> => {
 	try {
