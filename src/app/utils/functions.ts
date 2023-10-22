@@ -3,6 +3,9 @@ import { environment } from '../../environments/environment';
 
 const endpoint= `https://newsapi.org/v2/top-headlines?country=us&apiKey=${environment.apiKey}`;
 
+console.log('url', endpoint);
+console.log('key', environment);
+
 export const requestNewsApi = async (): Promise<IArticle[] | null> => {
 	try {
 		const response = await fetch(endpoint);
