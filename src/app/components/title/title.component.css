@@ -1,0 +1,25 @@
+div.title__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+div.title__container > h1 {
+	font-size: 10rem;
+	font-weight: 1000;
+}
+
+div.title__container > h1:hover {
+	background: linear-gradient(to right, #fe2c85, #f86838);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+	cursor: default;
+}
+
+div.title__container > hr {
+	width: 100%;
+	opacity: 0.1;
+}

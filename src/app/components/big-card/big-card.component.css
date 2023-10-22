@@ -1,0 +1,51 @@
+div.big-card__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	width: min-content;
+}
+
+div.big-card__photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: baseline;
+	gap: 1rem;
+}
+
+div.big-card__photo > img {
+	width: 35rem;
+}
+
+div.big-card__photo > p {
+	color: #363636;
+	font-size: .8rem;
+	font-weight: 600;
+}
+
+div.big-card__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: baseline;
+	gap: 1rem;
+}
+
+div.big-card__content > a > h1 {
+	color: #cdcdcd;
+}
+
+div.big-card__content > a > h1:hover {
+	background: linear-gradient(to right, #fe2c85, #f86838);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+div.big-card__content > p {
+	color: #707070;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
