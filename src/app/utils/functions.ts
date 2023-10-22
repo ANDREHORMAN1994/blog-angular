@@ -2,8 +2,6 @@ import { IArticle } from './types';
 import { environment } from '../../environments/environment';
 import { mockAPi } from './mockApi';
 
-console.log('Ambiente', environment);
-
 export const requestNewsApi = async (): Promise<IArticle[] | null> => {
 	try {
 		if (environment.production) {

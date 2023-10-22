@@ -15,7 +15,6 @@ export class BigCardComponent implements OnChanges {
 	date: Date = new Date();
 
 	ngOnChanges(change: SimpleChanges): void {
-		console.log(change, change["new"], change["isLoading"]);
 		if (!change["isLoading"].currentValue) {
 			this.date = formatDate(change["new"].currentValue.publishedAt);
 		}
