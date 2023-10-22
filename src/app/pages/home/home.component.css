@@ -1,0 +1,20 @@
+div.articles__container {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 4rem;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+div.articles__others {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+div.articles__others > hr {
+	width: 100%;
+	opacity: 0.1;
+}
