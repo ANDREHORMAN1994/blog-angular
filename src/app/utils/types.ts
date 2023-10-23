@@ -11,3 +11,9 @@ export interface IArticle {
 	publishedAt: string;
 	content: string | null;
 }
+
+export interface IResponseApi {
+	status: string;
+	totalResults: number;
+	articles: IArticle[];
+}
