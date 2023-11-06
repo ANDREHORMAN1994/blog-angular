@@ -4,15 +4,197 @@ export const mockAPi = {
 	"articles": [
 			{
 					"source": {
-							"id": "google-news",
-							"name": "Google News"
+							"id": null,
+							"name": "CBS Sports"
 					},
-					"author": "ABC News",
-					"title": "Hurricane Norma takes aim at Mexico's Los Cabos resorts, as Tammy threatens islands in the Atlantic - ABC News",
-					"description": null,
-					"url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vYWJjbmV3cy5nby5jb20vSW50ZXJuYXRpb25hbC93aXJlU3RvcnkvaHVycmljYW5lLW5vcm1hLXRha2VzLWFpbS1tZXhpY29zLWxvcy1jYWJvcy1yZXNvcnRzLTEwNDE5MTAwNNIBcGh0dHBzOi8vYWJjbmV3cy5nby5jb20vYW1wL0ludGVybmF0aW9uYWwvd2lyZVN0b3J5L2h1cnJpY2FuZS1ub3JtYS10YWtlcy1haW0tbWV4aWNvcy1sb3MtY2Fib3MtcmVzb3J0cy0xMDQxOTEwMDQ?oc=5",
+					"author": "",
+					"title": "NFL Week 9 picks and predictions: Cowboys stun Eagles, Ravens edge Seahawks - CBS Sports",
+					"description": "Wondering which NFL teams are going to win in Week 9? You've come to the right place to find out",
+					"url": "https://www.cbssports.com/nfl/news/nfl-week-9-picks-and-predictions-cowboys-stun-eagles-ravens-edge-seahawks/",
+					"urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/10/31/ee5e2845-fc92-42f0-ba22-0cf303e3de64/thumbnail/1200x675/e4afa914ff97f37a5d9e9936a49f17ff/daklamb.jpg",
+					"publishedAt": "2023-11-05T16:05:53Z",
+					"content": "\"Remember, remember, the fifth of November....\" \r\nI don't know how the rest of that goes, but I'm pretty sure that poem was written about Week 9 of this year's NFL season. I don't know how it's even … [+16573 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "Page Six"
+					},
+					"author": "Emily Selleck",
+					"title": "Taylor Swift has night out with Sophie Turner, Brittany Mahomes in NYC as Travis Kelce plays in Germany - Page Six",
+					"description": "The songstress was also joined by Selena Gomez, Gigi Hadid and Cara Delevingne for the night out while her new man, Travis Kelce, jetted to Europe for a football game.",
+					"url": "https://pagesix.com/2023/11/05/entertainment/taylor-swift-has-night-out-with-sophie-turner-brittany-mahomes-amid-travis-kelce-romance/",
+					"urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2023/11/NYPICHPDPICT000071836902.jpg?quality=75&strip=all&w=1024",
+					"publishedAt": "2023-11-05T14:45:00Z",
+					"content": "Say hello to the new girl squad. \r\nTaylor Swift stepped out for dinner with pals Selena Gomez, Sophie Turner, Gigi Hadid, Cara Delevingne and Brittany Mahomes while her new man, Travis Kelce, jetted … [+3358 chars]"
+			},
+			{
+					"source": {
+							"id": "associated-press",
+							"name": "Associated Press"
+					},
+					"author": "CALVIN WOODWARD, ALI SWENSON",
+					"title": "School board elections: Virginia faces a pivotal moment - The Associated Press",
+					"description": "Over the past three years, local school board elections have become the place where America’s deep political divisions are on full display. In Tuesday's races in Virginia, far-right candidates are looking to take over a number of school boards or expand their…",
+					"url": "https://apnews.com/article/election-2023-school-board-races-virginia-1148dd5bf6aa60edd919a8b0a0b18efb",
+					"urlToImage": "https://dims.apnews.com/dims4/default/6b7bb8b/2147483647/strip/true/crop/4021x2262+0+210/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7f%2F6d%2F30ef6a491a745b506dcbd917d48e%2F8dd4a3ba85e24205b3b5414215bd547f",
+					"publishedAt": "2023-11-05T14:24:00Z",
+					"content": "FREDERICKSBURG, Va. (AP) The crossroads of the Civil War, as Virginias Spotsylvania County calls itself, is once again a cauldron of hostilities, this time minus the muskets.\r\nWithin range of four de… [+16850 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "YouTube"
+					},
+					"author": null,
+					"title": "Is hybrid work the new normal? - CBS Sunday Morning",
+					"description": "As the pandemic eased, you might expect employees who'd been working from home would head back to the office. But as it turns out, that never happened! Inste...",
+					"url": "https://www.youtube.com/watch?v=vHjhEIYN20s",
+					"urlToImage": "https://i.ytimg.com/vi/vHjhEIYN20s/maxresdefault.jpg",
+					"publishedAt": "2023-11-05T14:12:33Z",
+					"content": null
+			},
+			{
+					"source": {
+							"id": "reuters",
+							"name": "Reuters"
+					},
+					"author": "Nidal Al-Mughrabi, Ali Sawafta, Simon Lewis",
+					"title": "Palestinian president presses US to secure Gaza ceasefire as refugee camp struck - Reuters",
+					"description": "Palestinian President Mahmoud Abbas demanded an immediate Israeli ceasefire at a meeting with top U.S diplomat <a href=\"/world/blinken-visits-west-bank-meet-palestinian-leader-abbas-gaza-war-rages-2023-11-05/\">Antony Blinken</a> on Sunday, as Gaza's health mi…",
+					"url": "https://www.reuters.com/world/middle-east/arab-world-us-split-gaza-ceasefire-israeli-offensive-presses-2023-11-05/",
+					"urlToImage": "https://www.reuters.com/resizer/9rd99vOF5wQAjDn3p2vUMSiUxcU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LVNAFCQVRJK2RBDK5DMRVC5ULY.jpg",
+					"publishedAt": "2023-11-05T14:05:00Z",
+					"content": "GAZA/RAMALLAH, Nov 5 (Reuters) - Palestinian President Mahmoud Abbas demanded an immediate Israeli ceasefire at a meeting with top U.S diplomat Antony Blinken on Sunday, as Gaza's health ministry sai… [+7936 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "Salon"
+					},
+					"author": "Meghan Beaudry",
+					"title": "A brain injury removed my ability to perceive time. Here's what it's like in a world without time - Salon",
+					"description": "The brain’s perception of time is abstract. Here's what happens when it gets seriously distorted",
+					"url": "https://www.salon.com/2023/11/05/a-brain-injury-removed-my-ability-to-perceive-time-heres-what-its-like-in-a-world-without-it/",
+					"urlToImage": "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2023/11/man_alarm_clocks_drowning_sea_time_concept_1398845180.jpg",
+					"publishedAt": "2023-11-05T14:00:00Z",
+					"content": null
+			},
+			{
+					"source": {
+							"id": "abc-news",
+							"name": "ABC News"
+					},
+					"author": "KIRSTEN GRIESHABER Associated Press",
+					"title": "The hostage situation at Hamburg Airport ends with a man in custody and 4-year-old daughter safe - ABC News",
+					"description": "Nobody was injured during the standoff, police say.",
+					"url": "https://abcnews.go.com/International/wireStory/german-police-advise-travelers-avoid-hamburg-airport-due-104639831",
+					"urlToImage": "https://i.abcnewsfe.com/a/30642abe-698a-4faf-917f-6710bd90f44d/wirestory_5ca37a0e638f2e9358ce8bebbbb279f8_16x9.jpg?w=992",
+					"publishedAt": "2023-11-05T13:52:30Z",
+					"content": "BERLIN -- The hostage situation at Hamburg Airport ended Sunday afternoon, around 18 hours after a man drove his vehicle through the gates of the airport with his 4-year-old daughter inside, authorit… [+2086 chars]"
+			},
+			{
+					"source": {
+							"id": "financial-times",
+							"name": "Financial Times"
+					},
+					"author": "Josh Noble",
+					"title": "Washington Post names Will Lewis as new chief executive and publisher - Financial Times",
+					"description": "Former Daily Telegraph editor had been in the running to bid for British broadsheet",
+					"url": "https://www.ft.com/content/1e21211e-48fc-4cdb-9911-9d6cc1509923",
 					"urlToImage": null,
-					"publishedAt": "2023-10-21T18:23:23Z",
+					"publishedAt": "2023-11-05T13:20:34Z",
+					"content": "What is included in my trial?\r\nDuring your trial you will have complete digital access to FT.com with everything in both of our Standard Digital and Premium Digital packages.\r\nStandard Digital includ… [+1494 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "POLITICO.eu"
+					},
+					"author": "Nicolas Camut",
+					"title": "Israel minister suspended after calling nuking Gaza an option - POLITICO Europe",
+					"description": "Heritage Minister Amichai Eliyahu’s statements ‘are not based in reality,’ Prime Minister Netanyahu says.",
+					"url": "https://www.politico.eu/article/israel-minister-amichai-eliyahu-suspend-benjamin-netanyahu-nuclear-bomb-gaza-hamas-war/",
+					"urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2023/11/05/GettyImages-1214821090-scaled.jpg",
+					"publishedAt": "2023-11-05T13:14:00Z",
+					"content": "Israel’s Heritage Minister Amichai Eliyahu was suspended indefinitely after he said in an interview that dropping a nuclear bomb on the Gaza Strip was “one of the possibilities,” the government annou… [+2247 chars]"
+			},
+			{
+					"source": {
+							"id": "the-washington-post",
+							"name": "The Washington Post"
+					},
+					"author": "Jacob Bogage, Abigail Hauslohner, Jeff Stein, Marianna Sotomayor",
+					"title": "Johnson's first moves show he'll stick with House GOP hard-liners - The Washington Post",
+					"description": "With less than two weeks before a potential government shutdown, Johnson’s early decisions foreshadow a difficult path to bipartisan agreement.",
+					"url": "https://www.washingtonpost.com/business/2023/11/05/mike-johnson-spending-gop-house/",
+					"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QQ6Z7Q2GDKPXW3RIOAWXPVOLWE_size-normalized.jpg&w=1440",
+					"publishedAt": "2023-11-05T13:00:00Z",
+					"content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nNew House Speaker Mike Johnson (R-La.) took office pledging to unify his fractious GOP conference and work with House Democrats on iss… [+10958 chars]"
+			},
+			{
+					"source": {
+							"id": "usa-today",
+							"name": "USA Today"
+					},
+					"author": "Cameron Ohnysty",
+					"title": "'I guess they do not get enough attention from the games they are losing.' Rebels QB Jaxson Dart blasts Texas A&M after Ole Miss win - Texas A&M",
+					"description": "Ole Miss QB Jaxson Dart states that previous social media “trolling” by several Aggie players fueled the Rebels during their 38-35 victory.",
+					"url": "https://aggieswire.usatoday.com/2023/11/05/jaxson-dart-ole-miss-rebel-football-texas-am-football/",
+					"urlToImage": "https://aggieswire.usatoday.com/wp-content/uploads/sites/111/2023/11/1774760639.jpg?w=1024&h=576&crop=1",
+					"publishedAt": "2023-11-05T13:00:00Z",
+					"content": "Tell me if you’ve heard this before: The quarterback from the winning team states that they were motivated by something the opposing team did during the week, such as social media “trolling” on said … [+2290 chars]"
+			},
+			{
+					"source": {
+							"id": "reuters",
+							"name": "Reuters"
+					},
+					"author": "Navesh Chitrakar, Yubaraj Sharma",
+					"title": "Sobbing relatives of Nepal quake victims cremate loved ones - Reuters",
+					"description": "Sobbing relatives of victims from Nepal's worst earthquake in eight years cremated their loved ones on Sunday as rescuers looked for people who could still be trapped in the rubble of collapsed buildings.",
+					"url": "https://www.reuters.com/world/asia-pacific/sobbing-relatives-nepal-quake-victims-prepare-cremations-2023-11-05/",
+					"urlToImage": "https://www.reuters.com/resizer/8FlY0hBka1CR_7PzZRSLfrcMT2s=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ENIWX4NZU5INVNN7A5LLSSVP7Y.jpg",
+					"publishedAt": "2023-11-05T12:55:00Z",
+					"content": "CHIURI, Nepal, Nov 5 (Reuters) - Sobbing relatives of victims from Nepal's worst earthquake in eight years cremated their loved ones on Sunday as rescuers looked for people who could still be trapped… [+3223 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "Hindustan Times"
+					},
+					"author": "Arya Vaishnavi",
+					"title": "Matthew Perry buried alongside Paul Walker, Carrie Fisher at famous cemetery - Hindustan Times",
+					"description": "During Matthew Perry's funeral, his loved ones were left in tears after Peter Gabriel's 1986 single Don't Give Up featuring Kate Bush was played towards the end",
+					"url": "https://www.hindustantimes.com/entertainment/tv/matthew-perry-buried-alongside-paul-walker-carrie-fisher-at-famous-hollywood-cemetery-101699186662244.html",
+					"urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/11/05/1600x900/Matthew_1699086480988_1699188316726.jpg",
+					"publishedAt": "2023-11-05T12:47:03Z",
+					"content": "Matthew Perry was laid to rest at Forest Lawn Memorial Park Cemetery in Los Angeles, California on Friday, November 3. The cemetery is opposite the Warner Bros Studios where the iconic sitcom Friends… [+2086 chars]"
+			},
+			{
+					"source": {
+							"id": "the-washington-post",
+							"name": "The Washington Post"
+					},
+					"author": "David Ovalle",
+					"title": "Can vaccines, monoclonal antibodies help curb addiction and overdoses? - The Washington Post",
+					"description": "The concept has long tantalized scientists: harnessing antibodies to block the dangerous effects of heroin, cocaine and nicotine.",
+					"url": "https://www.washingtonpost.com/health/2023/11/04/opioid-fentanyl-vaccine-antibody/",
+					"urlToImage": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
+					"publishedAt": "2023-11-05T12:32:13Z",
+					"content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nThe concept has long tantalized scientists: harnessing the power of antibodies to block the dangerous effects of heroin, cocaine and n… [+11909 chars]"
+			},
+			{
+					"source": {
+							"id": null,
+							"name": "YouTube"
+					},
+					"author": null,
+					"title": "Israel-Hamas war: Lebanon does not want to be 'embroiled in deadly conflict' - Sky News",
+					"description": "Rami Mortada, Lebanon's ambassador to the UK, has told Trevor Phillips his country is doing its \"utmost\" to contain the situation in Israel and Gaza.   He sa...",
+					"url": "https://www.youtube.com/watch?v=tRBJVh-6Y8g",
+					"urlToImage": "https://i.ytimg.com/vi/tRBJVh-6Y8g/maxresdefault.jpg",
+					"publishedAt": "2023-11-05T12:30:41Z",
 					"content": null
 			},
 			{
@@ -20,247 +202,65 @@ export const mockAPi = {
 							"id": "associated-press",
 							"name": "Associated Press"
 					},
-					"author": "NAJIB JOBAIN, JOSEPH KRAUSS, SAMY MAGDY",
-					"title": "Egypt's border crossing opens to let a trickle of desperately needed aid into besieged Gaza - The Associated Press",
-					"description": "The border crossing between Egypt and Gaza has opened to let a trickle of desperately needed aid into the besieged Palestinian territory. This was the first aid allowed in since Israel sealed Gaza off in the wake of Hamas’ bloody rampage two weeks ago. Only 2…",
-					"url": "https://apnews.com/article/israel-palestinians-gaza-captives-border-aid-f5976ed58ba508f14d45b72b428125ac",
-					"urlToImage": "https://dims.apnews.com/dims4/default/a069491/2147483647/strip/true/crop/6201x3488+0+323/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2F5b%2F431442b3f3782e83b74fd6c8474b%2Fabe32f044c1c4ff3bf919cefa31b7b19",
-					"publishedAt": "2023-10-21T18:10:00Z",
-					"content": "RAFAH, Gaza Strip (AP) The border crossing between Egypt and Gaza opened Saturday to let a trickle of desperately needed aid into the besieged Palestinian territory for the first time since Israel se… [+8168 chars]"
-			},
-			{
-					"source": {
-							"id": "cnn",
-							"name": "CNN"
-					},
-					"author": "Jessie Yeung, Abeer Salman, Asmaa Khalil, Hafsa Khalil",
-					"title": "Hamas releases two hostages as questions swirl about delayed aid and looming incursion - CNN",
-					"description": "The first trucks carrying aid entered Gaza on Saturday, but international leaders have warned that much more is needed to combat the “catastrophic” humanitarian situation in the enclave that holds more than 2 million people.",
-					"url": "https://www.cnn.com/2023/10/21/middleeast/israel-gaza-war-hostages-saturday-intl-hnk/index.html",
-					"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231021033403-01-rafah-crossing-opening-102123.jpg?c=16x9&q=w_800,c_fill",
-					"publishedAt": "2023-10-21T18:04:00Z",
-					"content": "The first trucks carrying aid entered Gaza on Saturday, but international leaders have warned that much more is needed to combat the catastrophic humanitarian situation in the enclave that holds more… [+9633 chars]"
-			},
-			{
-					"source": {
-							"id": "cnn",
-							"name": "CNN"
-					},
-					"author": "Clare Foran",
-					"title": "House remains paralyzed with no end in sight for speakership battle after Jordan's exit - CNN",
-					"description": "There is still no end in sight for the high-stakes speakership battle after House Republicans ousted Kevin McCarthy more than two weeks ago.",
-					"url": "https://www.cnn.com/2023/10/21/politics/house-speaker-race-candidates/index.html",
-					"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231018135936-03-house-speaker-plan-d-what-matters.jpg?c=16x9&q=w_800,c_fill",
-					"publishedAt": "2023-10-21T18:02:00Z",
-					"content": "There is still no end in sight for the high-stakes speakership battle after House Republicans ousted Kevin McCarthy more than two weeks ago. \r\nThe search is on for a new GOP speaker nominee after Rep… [+2879 chars]"
+					"author": "MICHAEL R. SISAK, ERIC TUCKER",
+					"title": "Trump's decades of testimony provide some clues about how he'll fight for his real estate empire - The Associated Press",
+					"description": "Donald Trump has testified in court as a football owner, casino builder and airline buyer. He once bragged in a legal deposition that he saved “millions of lives” by deterring nuclear war as president. Another time, he fretted about the dangers of thrown frui…",
+					"url": "https://apnews.com/article/trump-new-york-fraud-lawsuit-business-empire-bd06bf8db3a14a9d2f10eb69b300c1d3",
+					"urlToImage": "https://dims.apnews.com/dims4/default/adac490/2147483647/strip/true/crop/7521x4231+0+393/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0c%2F2e%2Fb10a62a9b5a21dfb2fe853c6fe73%2F84e52fa1739b420ca529b054a09994ec",
+					"publishedAt": "2023-11-05T12:23:00Z",
+					"content": "NEW YORK (AP) Donald Trump has testified in court as a football owner, casino builder and airline buyer. He bragged in a deposition that he saved millions of lives by deterring nuclear war as preside… [+11055 chars]"
 			},
 			{
 					"source": {
 							"id": null,
-							"name": "Yahoo Entertainment"
-					},
-					"author": "Yahoo Sports Staff",
-					"title": "College football scores, updates: Penn State takes on Ohio State in marquee Big Ten clash - Yahoo Sports",
-					"description": "We have another full slate of intriguing games on Saturday.",
-					"url": "https://sports.yahoo.com/college-football-scores-updates-penn-state-vs-ohio-state-ucf-vs-oklahoma-and-more-182320828.html",
-					"urlToImage": "https://s.yimg.com/ny/api/res/1.2/RktEcUb8FoPDAaKI_5MKpw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/16e6eab0-702f-11ee-af4f-9c3ce75fe3a9",
-					"publishedAt": "2023-10-21T17:42:08Z",
-					"content": "The first really big game in the Big Ten is finally here. Penn State travels to face Ohio State in a top-10 matchup that will go a long way in shaping the conference title race.\r\nThat game should set… [+226 chars]"
-			},
-			{
-					"source": {
-							"id": "reuters",
-							"name": "Reuters"
-					},
-					"author": "Aidan Lewis, Nafisa Eltahir",
-					"title": "Cairo Peace Summit ends without Gaza breakthrough - Reuters",
-					"description": "Arab leaders at a Cairo summit on Saturday condemned Israeli bombardment of Gaza as Europeans said civilians should be shielded, but with Israel and senior U.S. officials absent there was no agreement towards containing the violence.",
-					"url": "https://www.reuters.com/world/middle-east/cairo-peace-summit-grapples-with-gaza-war-risks-region-rise-2023-10-21/",
-					"urlToImage": "https://www.reuters.com/resizer/gujIP77KlWFxGFKsvm3EjDEHh6A=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/BEPMTW3PC5NSFAS7R5IXSIHMLU.jpg",
-					"publishedAt": "2023-10-21T17:08:00Z",
-					"content": "CAIRO, Oct 21 (Reuters) - Arab leaders at a Cairo summit on Saturday condemned Israeli bombardment of Gaza as Europeans said civilians should be shielded, but with Israel and senior U.S. officials ab… [+4922 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "Page Six"
-					},
-					"author": "Alix Breeden",
-					"title": "Kim Kardashian sizzles in fiery red dress for her star-studded 43rd birthday party - Page Six",
-					"description": "The Skims owner celebrated her 43rd birthday at Funke in Beverly Hills, Calif., alongside members of her famous family and celeb friends.",
-					"url": "https://pagesix.com/2023/10/21/kim-kardashian-sizzles-in-red-dress-for-her-43rd-birthday-party/",
-					"urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2023/10/kim-kardashian.jpg?quality=75&strip=all&w=1024",
-					"publishedAt": "2023-10-21T16:38:00Z",
-					"content": "Kim Kardashian looked ravishing in red for her 43rd birthday.\r\nThe “Kardashians” star arrived at Funke in Beverly Hills, Calif., Friday night to celebrate another year around the sun alongside her fa… [+2438 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "Vulture"
-					},
-					"author": "Bethy Squires",
-					"title": "Meryl Streep, Don Gummer Announce Separation (Six Years Ago) - Vulture",
-					"description": "Guess who else was less entangled than we thought. Meryl Streep and Don Gummer announced that they have been separated for over six years. The couple met in 1978, and wed six months later. They share four children, one of whom is on The Gilded Age.",
-					"url": "http://www.vulture.com/2023/10/meryl-streep-don-gummer-separated.html",
-					"urlToImage": "https://pyxis.nymag.com/v1/imgs/471/de9/1704a265e83e3273a4bdb08c0e4cc933ad-streep-gummer.1x.rsocial.w1200.jpg",
-					"publishedAt": "2023-10-21T16:33:12Z",
-					"content": "Guess who else was less entangled than we thought. Meryl Streep and Don Gummer announced that, surprise, theyve actually be separated for six years. While they will always care for each other, a stat… [+727 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "CNBC"
-					},
-					"author": "Rebecca Picciotto",
-					"title": "Web Summit CEO resigns after apologizing for Israel-Hamas war comments - CNBC",
-					"description": "Big Tech attendees like Alphabet, Meta and Amazon had already decided to bow out of the annual tech conference.",
-					"url": "https://www.cnbc.com/2023/10/21/web-summit-ceo-resigns-after-israel-hamas-war-comments.html",
-					"urlToImage": "https://image.cnbcfm.com/api/v1/image/103131859-GettyImages-458507410.jpg?v=1697905643&w=1920&h=1080",
-					"publishedAt": "2023-10-21T16:17:36Z",
-					"content": "Paddy Cosgrave, the CEO and co-founder of annual tech conference Web Summit, has resigned from his post after coming under fire for his comments on the Israel-Hamas war, leading Big Tech guests like … [+1058 chars]"
-			},
-			{
-					"source": {
-							"id": "cbs-news",
-							"name": "CBS News"
-					},
-					"author": "Eric Henderson, Jack Turman",
-					"title": "Minnesota Rep. Tom Emmer announces bid for House speaker nomination - CBS Minnesota",
-					"description": "Emmer, who right now is in the number three spot in House leadership as majority whip, is making a bid to be the next speaker of the U.S. House, a source close to Emmer has confirmed.",
-					"url": "https://www.cbsnews.com/minnesota/news/tom-emmer-house-speaker-nomination-jim-jordan-republicans-gop/",
-					"urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2022/11/08/28849f19-1050-442c-b330-04b1e1f798a6/thumbnail/1200x630/32637a1cdb01bc6fcaa66652d069a717/gettyimages-1061504442.jpg?v=18a5d3569ab1a3ca759fe14d213f7845",
-					"publishedAt": "2023-10-21T15:58:00Z",
-					"content": "WASHINGTON, D.C. — Rep. Tom Emmer has officially announced his intentions to become the next U.S. House speaker following the unprecedented removal of Rep. Kevin McCarthy earlier this month.\r\nOn Satu… [+4338 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "YouTube"
+							"name": "CNET"
 					},
 					"author": null,
-					"title": "Judge shot to death in his own driveway | GMA - Good Morning America",
-					"description": "Urgent search for the suspect believed to have gunned down a judge who police say had just made a ruling in the man's divorce case.SUBSCRIBE to GMA's YouTube...",
-					"url": "https://www.youtube.com/watch?v=kwpHi5fCR84",
-					"urlToImage": "https://i.ytimg.com/vi/kwpHi5fCR84/maxresdefault.jpg",
-					"publishedAt": "2023-10-21T15:50:00Z",
-					"content": null
+					"title": "TCL QM8 Review: TV Value Champ Gets Bigger, Brighter and Better - CNET",
+					"description": "Searing brightness, a superb image and an affordable price cement this TCL's place atop the midpriced TV totem pole. Too bad the smallest one is 65 inches.",
+					"url": "https://www.cnet.com/tech/home-entertainment/tcl-qm8-review-tv-value-champ-gets-bigger-brighter-and-better/",
+					"urlToImage": "https://www.cnet.com/a/img/resize/625de39a4d7a69defa1f41686354c13d02c52406/hub/2023/11/03/0b82bccc-551d-4ab7-8435-08b7da493825/tcl-65qm850g-tv-8622.jpg?auto=webp&fit=crop&height=675&width=1200",
+					"publishedAt": "2023-11-05T12:00:00Z",
+					"content": "If you want a big TV with an excellent picture but you don't want to spend a fortune, the TCL QM8 belongs at the top of your list. This TV is even better than the best TV for the money I tested last … [+15471 chars]"
+			},
+			{
+					"source": {
+							"id": "al-jazeera-english",
+							"name": "Al Jazeera English"
+					},
+					"author": "Al Jazeera",
+					"title": "Afghan opium poppy cultivation plunges by 95 percent under Taliban: UN - Al Jazeera English",
+					"description": "The restriction on poppy cultivation has decimated a key trade for hundreds of thousands of farmers and labourers.",
+					"url": "https://www.aljazeera.com/news/2023/11/5/afghan-opium-poppy-cultivation-plunges-by-95-percent-under-taliban-un",
+					"urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/11/2014-04-17T120000Z_921556871_GM1EA4H1O6N01_RTRMADP_3_AFGHANISTAN-NARCOTICS-1699176785.jpg?resize=1920%2C1440",
+					"publishedAt": "2023-11-05T11:59:17Z",
+					"content": "Poppy cultivation and opium production have plunged more than 90 percent in Afghanistan since Taliban authorities banned the crop last April, according to a UN report published on Sunday.\r\nPoppy cult… [+3175 chars]"
 			},
 			{
 					"source": {
 							"id": null,
-							"name": "The Times of Israel"
+							"name": "AL.com"
+					},
+					"author": "Matt Stahl | mstahl@al.com",
+					"title": "LANK: How Jalen Milroe outdueled Jayden Daniels, led Alabama football to win over LSU - AL.com",
+					"description": "Jalen Milroe led Alabama to a 42-28 win over LSU on Saturday.",
+					"url": "https://www.al.com/alabamafootball/2023/11/lank-how-jalen-milroe-outdueled-jayden-daniels-led-alabama-football-to-win-over-lsu.html",
+					"urlToImage": "https://www.al.com/resizer/gYpWCSFNawDIAG7M7ef7OEkhM58=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/2GIKKRXVD5AB5KDKPG5RTXGIJU.jpg",
+					"publishedAt": "2023-11-05T11:03:00Z",
+					"content": "Jalen Milroe cracked a smile at the question.\r\nThere was a whole lot of LANKing that was going on out there, the Alabama quarterback said after the Crimson Tides 42-28 win over LSU Saturday.\r\nLANK is… [+2949 chars]"
+			},
+			{
+					"source": {
+							"id": "politico",
+							"name": "Politico"
 					},
 					"author": null,
-					"title": "UN chief, Arab leaders call for end to Israel-Hamas war, urge peaceful solution - The Times of Israel",
-					"description": "At Cairo 'peace summit,' Guterres says Gazans living through 'humanitarian catastrophe'; PA's Abbas vows to prevent 'second Nakba'; Jordan slams world silence on Palestinian deaths",
-					"url": "https://www.timesofisrael.com/un-chief-arab-leaders-call-for-end-to-israel-hamas-war-urge-peaceful-solution/",
-					"urlToImage": "https://static.timesofisrael.com/www/uploads/2023/10/33YQ7LX-highres-1024x640.jpg",
-					"publishedAt": "2023-10-21T15:44:14Z",
-					"content": "UN chief Antonio Guterres pleaded Saturday for a “humanitarian ceasefire” in the war between Israel and the Hamas terror group that erupted after Hamas gunmen killed over 1,400 people in southern Isr… [+5427 chars]"
-			},
-			{
-					"source": {
-							"id": "fox-news",
-							"name": "Fox News"
-					},
-					"author": "Chris Eberhart",
-					"title": "'Extremely rare' case of dengue virus found in California - Fox News",
-					"description": "The first locally acquired case of dengue virus, also known as \"break-bone fever\" because of the pain, was confirmed in a Pasadena, California, resident this week.",
-					"url": "https://www.foxnews.com/us/extremely-rare-case-dengue-virus-found-california",
-					"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/09/mosquito-on-skin.jpg",
-					"publishedAt": "2023-10-21T15:25:00Z",
-					"content": "The first locally acquired case of dengue virus often referred to as \"break-bone fever\" was contracted by a resident in Pasadena, California, public health officials said Friday.\r\nThis is the first l… [+2552 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "Sports Illustrated"
-					},
-					"author": "Tom Verducci",
-					"title": "Don't be Distracted, Astros' Jose Altuve Is the Real Star of a Chaotic ALCS Game 5 - Sports Illustrated",
-					"description": "Fireworks exploded in the Astros-Rangers Game 5 matchup, but Jose Altuve was the real star.",
-					"url": "https://www.si.com/mlb/2023/10/21/houston-astros-jose-altuve-real-star-texas-rangers-alcs-game-5",
-					"urlToImage": "https://www.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjAxNjUyODcwMTk2NTA0MjA3/jose-altuve-.jpg",
-					"publishedAt": "2023-10-21T15:24:15Z",
-					"content": "The shiny diversions are as plentiful as the Vegas strip at midnight. How umpire James Hoye and Rangers outfielder Adolis García overreacted to a hit by pitch. How Texas closer José Leclerc threw a 3… [+13748 chars]"
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "Space.com"
-					},
-					"author": "Mike Wall",
-					"title": "SpaceX to launch 23 Starlink satellites tonight on 2nd leg of spaceflight doubleheader - Space.com",
-					"description": "Liftoff is scheduled for 10:17 p.m. ET.",
-					"url": "https://www.space.com/spacex-starlink-launch-group-6-24",
-					"urlToImage": "https://cdn.mos.cms.futurecdn.net/q9bMJbD4xonrH2CX6bNjoA-1200-80.jpg",
-					"publishedAt": "2023-10-21T15:00:58Z",
-					"content": "Space is part of Future US Inc, an international media group and leading digital publisher. Visit our corporate site.\r\n©\r\nFuture US, Inc. Full 7th Floor, 130 West 42nd Street,\r\nNew York,\r\nNY 10036."
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "YouTube"
-					},
-					"author": null,
-					"title": "Killers of the Flower Moon - Official Clip (2023) Robert De Niro, Leonardo DiCaprio - IGN",
-					"description": "Check out this clip from Killers of the Flower Moon featuring Robert De Niro and Leonardo DiCaprio. The film also stars Lily Gladstone and Jesse Plemons. At ...",
-					"url": "https://www.youtube.com/watch?v=at4LarMa6BI",
-					"urlToImage": "https://i.ytimg.com/vi/at4LarMa6BI/maxresdefault.jpg",
-					"publishedAt": "2023-10-21T15:00:01Z",
-					"content": null
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "MMA Fighting"
-					},
-					"author": "Shaun Al-Shatti",
-					"title": "UFC 294 Results: Makhachev vs. Volkanovski 2 - MMA Fighting",
-					"description": "Get UFC 294 results for the Makhachev vs. Volkanovski 2 fight card Saturday afternoon.",
-					"url": "https://www.mmafighting.com/2023/10/21/23924788/ufc-294-results-makhachev-vs-volkanovski-2",
-					"urlToImage": "https://cdn.vox-cdn.com/thumbor/svpvVUuBIw8k2A4TemHA0XsDla0=/0x0:5067x2653/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25018994/1746499389.jpg",
-					"publishedAt": "2023-10-21T14:37:41Z",
-					"content": null
-			},
-			{
-					"source": {
-							"id": "google-news",
-							"name": "Google News"
-					},
-					"author": "PBS NewsHour",
-					"title": "Live updates: What’s happening on Day 14 of the Israel-Hamas war - PBS NewsHour",
-					"description": null,
-					"url": "https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3LnBicy5vcmcvbmV3c2hvdXIvd29ybGQvbGl2ZS11cGRhdGVzLXdoYXRzLWhhcHBlbmluZy1vbi1kYXktMTQtb2YtdGhlLWlzcmFlbC1oYW1hcy13YXLSAWVodHRwczovL3d3dy5wYnMub3JnL25ld3Nob3VyL2FtcC93b3JsZC9saXZlLXVwZGF0ZXMtd2hhdHMtaGFwcGVuaW5nLW9uLWRheS0xNC1vZi10aGUtaXNyYWVsLWhhbWFzLXdhcg?oc=5",
-					"urlToImage": null,
-					"publishedAt": "2023-10-21T14:22:35Z",
-					"content": null
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "YouTube"
-					},
-					"author": null,
-					"title": "Highlighting the “Ring of Fire” Solar Eclipse on This Week @NASA – October 20, 2023 - NASA",
-					"description": "Highlighting the “Ring of Fire” solar eclipse, learning how the human body reacts to long spaceflights, and a new engine test series for future Artemis missi...",
-					"url": "https://www.youtube.com/watch?v=j3bPyWwbO6E",
-					"urlToImage": "https://i.ytimg.com/vi/j3bPyWwbO6E/maxresdefault.jpg",
-					"publishedAt": "2023-10-21T14:00:26Z",
-					"content": null
-			},
-			{
-					"source": {
-							"id": null,
-							"name": "Nintendo.com"
-					},
-					"author": null,
-					"title": "Super Mario Bros.™ Wonder Double Keychain - Nintendo",
-					"description": "Buy Super Mario Bros.™ Wonder Double Keychain and shop other great Nintendo products online at the official My Nintendo Store.",
-					"url": "https://www.nintendo.com/us/store/products/super-mario-bros-wonder-keychain-120488/",
-					"urlToImage": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/My%20Nintendo%20Store/EN-US/My%20Nintendo%20Rewards/super-mario-bros-wonder-keychain-120488/120488-nintendo-super-mario-bros-wonder-double-keychain-1200x675",
-					"publishedAt": "2023-10-21T13:44:54Z",
-					"content": "Jump into the unexpected and double the Mario fun with this Super Mario Bros. Wonder keychain, featuring Mario with a Wonder Flower along with Elephant Mario.\r\nIt also comes with a colorful strap tha… [+485 chars]"
+					"title": "Ukrainian missile strike on shipyard in Crimea damages Russian ship - POLITICO",
+					"description": "The Crimean Peninsula, which Russia illegally annexed from Ukraine in 2014, has been a frequent target.",
+					"url": "https://www.politico.com/news/2023/11/05/ukrainian-missile-strike-on-shipyard-in-crimea-damages-russian-ship-00125408",
+					"urlToImage": "https://static.politico.com/42/9d/907d216640538968c35a527c680c/russia-ukraine-war-eu-30689.jpg",
+					"publishedAt": "2023-11-05T10:52:13Z",
+					"content": "The Ukrainian air force commander, Mykola Oleshchuk, said in a statement that at the time of the attack carried out by Ukrainian tactical aviation, one of the most modern ships of Russias Black Sea f… [+1623 chars]"
 			}
 	]
 }
