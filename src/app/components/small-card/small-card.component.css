@@ -48,7 +48,7 @@ a:hover > div.small-card__container > div.small-card__content > a > h1 {
 
 .scaling {
   transform: scale(1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .scaling:hover {
