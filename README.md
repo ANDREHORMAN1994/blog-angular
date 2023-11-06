@@ -1,27 +1,48 @@
-# BlogAngular
+<h1 align="center">
+  <p><img alt="Icone do Blog" src="./.github/news-icon.png" height="100px" /></p>
+  <span>BLOG ANGULAR</span>
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#paintbrush-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://blog-angular-andre-horman.vercel.app/" target="_blank">Aplicação na Vercel</a>
+</p>
 
-## Development server
+<p align="center">
+  <img alt="design do projeto" width="650px" src="./.github/mockup.png" />
+<p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## :bookmark: Sobre
 
-## Code scaffolding
+O **Blog Angular** é uma aplicação Web desenvolvida em Angular, que consome a [News API](https://newsapi.org/) para exibir as principais notícias do momento. O projeto foi desenvolvido com o intuito de praticar os conceitos básicos do Angular, como componentes, diretivas, serviços, rotas, entre outros.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para executar a aplicação, realize os passos a seguir:
 
-## Build
+* Clone o repositório ou realize um fork para o seu GitHub.
+* Entre no diretório do projeto --> `cd blog-angular`.
+* Instale as dependências do projeto --> `npm install`.
+* Execute a aplicação --> `ng serve`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br />
+<p align="center">
+  <img alt="preview do projeto" width="650px" src="./.github/the-blog.gif" />
+<p>
 
-## Running unit tests
+## :rocket: Tecnologias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - `Angular`
+  > Framework JavaScript para desenvolvimento de aplicações web.
+  - `TypeScript`
+  > Linguagem de programação que adiciona tipagem estática ao JavaScript.
+	- `News API`
+	> API que fornece notícias de diversas fontes e em diversos idiomas.
+  - `Vercel`
+  > Plataforma de hospedagem voltada para aplicações web modernas e escaláveis.
 
-## Running end-to-end tests
+## :paintbrush: Layout
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Inspirei-me no [Layout](https://dribbble.com/shots/18089191-Blog-Layout?utm_source=Clipboard_Shot&utm_campaign=dwinawan&utm_content=Blog%20Layout&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=dwinawan&utm_content=Blog%20Layout&utm_medium=Social_Share) criado por **Dwinawan** para orientar o meu projeto.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
