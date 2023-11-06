@@ -22,6 +22,7 @@ div.big-card__container {
 	justify-content: center;
 	align-items: center;
 	width: min-content;
+	gap: .5rem;
 }
 
 div.big-card__photo {
@@ -51,6 +52,15 @@ div.big-card__content {
 	justify-content: center;
 	align-items: baseline;
 	gap: .5rem;
+	width: 100%;
+	height: min-content;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+div.big-card__content > a {
+	height: min-content;
+	text-overflow: ellipsis;
 }
 
 div.big-card__content > a > h1 {
@@ -58,17 +68,43 @@ div.big-card__content > a > h1 {
 	font-size: 1.6rem;
 	font-weight: 600;
 	margin: 0;
-}
-
-div.big-card__content > a > h1:hover {
-	background: linear-gradient(to right, #fe2c85, #f86838);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+	text-overflow: ellipsis;
 }
 
 div.big-card__content > p {
 	color: #707070;
 	font-weight: 500;
 	font-size: 1.1rem;
+}
+
+a:hover > div.big-card__container > div.big-card__content > a > h1 {
+	background: linear-gradient(to right, #fe2c85, #f86838);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.scaling {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.scaling:hover {
+	transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+	div.big-card__photo > img {
+		width: 18rem;
+		height: 12rem;
+	}
+
+	div.big-card__content > a > h1 {
+		font-size: 1.3rem;
+	}
+
+	div.big-card__content {
+		height: min-content;
+		text-overflow: ellipsis;
+	}
 }

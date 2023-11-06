@@ -3,14 +3,14 @@
 	<app-title />
 	<div class="articles__container container">
 		<div class="articles__main">
-			<app-big-card [new]="news[1]" [isLoading]="isLoading" />
+			<app-big-card [new]="news[0]" [isLoading]="isLoading" />
 		</div>
 		<div class="articles__others">
+			<app-small-card [new]="news[1]" [isLoading]="isLoading" />
+			<hr />
 			<app-small-card [new]="news[2]" [isLoading]="isLoading" />
 			<hr />
 			<app-small-card [new]="news[3]" [isLoading]="isLoading" />
-			<hr />
-			<app-small-card [new]="news[4]" [isLoading]="isLoading" />
 		</div>
 	</div>
 </div>

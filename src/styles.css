@@ -14,6 +14,12 @@ body {
 	overflow-x: hidden;
 }
 
+@media (max-width: 768px) {
+	body {
+		height: auto;
+	}
+}
+
 a {
 	text-decoration: none;
 }

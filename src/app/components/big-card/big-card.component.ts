@@ -17,6 +17,9 @@ export class BigCardComponent implements OnChanges {
 	ngOnChanges(change: SimpleChanges): void {
 		if (!change["isLoading"].currentValue) {
 			this.date = formatDate(change["new"].currentValue.publishedAt);
+			if (this.new.description && this.new.description?.length > 160) {
+				this.new.description = this.new.description?.substring(0, 160) + '...';
+			}
 		}
 	}
 }

@@ -21,7 +21,8 @@ export class HomeComponent implements OnInit {
 		this.service.requestGetNews().subscribe({
 			next: ({ articles }: { articles: IArticle[] }) => {
 				setTimeout(() => {
-					this.news = articles;
+					const articlesWithImage = articles.filter((n) => n.urlToImage);
+					this.news = articlesWithImage;
 					this.isLoading = false;
 				}, 1000);
 			},

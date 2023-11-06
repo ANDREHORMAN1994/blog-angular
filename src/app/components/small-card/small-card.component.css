@@ -28,6 +28,10 @@ div.small-card__content > p {
 	margin: 0;
 }
 
+div.small-card__content > a {
+	width: 30rem;
+}
+
 div.small-card__content > a > h1 {
 	color: #cdcdcd;
 	font-size: 1.5rem;
@@ -35,9 +39,36 @@ div.small-card__content > a > h1 {
 	margin: 0;
 }
 
-div.small-card__content > a > h1:hover {
+a:hover > div.small-card__container > div.small-card__content > a > h1 {
 	background: linear-gradient(to right, #fe2c85, #f86838);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.scaling {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.scaling:hover {
+	transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+	div.small-card__photo > img {
+		width: 8rem;
+		height: 5rem;
+	}
+
+	div.small-card__content > a {
+		width: 10rem;
+	}
+
+	div.small-card__content > a > h1 {
+		color: #cdcdcd;
+		font-size: 1rem;
+		font-weight: 600;
+		margin: 0;
+	}
 }

@@ -22,3 +22,13 @@ div.articles__others > hr {
 	width: 100%;
 	opacity: 0.1;
 }
+
+@media (max-width: 768px) {
+	div.articles__container {
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+		padding-bottom: 1rem;
+	}
+}

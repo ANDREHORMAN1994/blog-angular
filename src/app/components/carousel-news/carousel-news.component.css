@@ -28,11 +28,46 @@ div.carousel-news__cards {
 	gap: 1rem;
 	width: 100%;
 	padding: 2rem;
+	overflow-y: hidden;
 	overflow-x: auto;
 }
 
 .carousel-news__card {
 	background-color: #fff;
 	height: 600px;
+	width: min-content;
 	padding: 1rem;
+	text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+	div.carousel-news__container {
+		width: 100%;
+		max-height: fit-content;
+		padding-bottom: 1rem;
+	}
+
+	div.container > h1 {
+		color: #121212;
+		padding: 2rem 0 3rem 0;
+		font-size: 2rem;
+	}
+
+	div.carousel-news__cards {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: baseline;
+		gap: .5rem;
+		width: 100%;
+		padding: 0;
+		overflow-y: hidden;
+		overflow-x: auto;
+		height: 100%;
+	}
+
+	.carousel-news__card {
+		height: 31rem;
+	}
+
 }

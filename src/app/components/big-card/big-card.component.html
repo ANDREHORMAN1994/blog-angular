@@ -1,17 +1,19 @@
-<div class="big-card__container" *ngIf="!isLoading; else default" >
-	<div class="big-card__photo">
-		<img src="{{new.urlToImage}}" alt="{{new.title}}">
-		<p>{{date.toDateString()}}</p>
+<a href="{{new.url}}" target="_blank" *ngIf="!isLoading; else default">
+	<div class="big-card__container">
+		<div class="big-card__photo">
+			<img class="scaling" src="{{new.urlToImage}}" alt="{{new.title}}">
+			<p>{{date.toDateString()}}</p>
+		</div>
+		<div class="big-card__content">
+			<a href="{{new.url}}" target="_blank">
+				<h1 [ngStyle]="{ 'color': colorTitle && colorTitle }" >
+					{{new.title.length < 70 ? new.title : new.title.substring(0, 70) + '...'}}
+				</h1>
+			</a>
+			<p>{{new.description}}</p>
+		</div>
 	</div>
-	<div class="big-card__content">
-		<a href="{{new.url}}" target="_blank">
-			<h1 [ngStyle]="{ 'color': colorTitle && colorTitle }" >
-				{{new.title}}
-			</h1>
-		</a>
-		<p>{{new.description}}</p>
-	</div>
-</div>
+</a>
 
 <ng-template #default >
 	<div class="overlay">
@@ -25,10 +27,10 @@
 		<div class="big-card__content">
 			<a href="#">
 				<h1>
-					lorem ipsum dolor sit amet, consectetur adipiscing elit. sed
+					{{'lorem ipsum dolor sit amet, consectetur adipiscing elit. sed'.substring(0, 70)}}
 				</h1>
 			</a>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fugit ipsum perspiciatis earum explicabo atque. Placeat repudiandae sapiente commodi maiores atque in cupiditate. Aut provident illo error amet voluptatum?</p>
+			<p>{{'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fugit ipsum perspiciatis earum explicabo atque. Placeat repudiandae sapiente commodi maiores atque in cupiditate'.substring(0, 160)}}</p>
 		</div>
 	</div>
 </ng-template>

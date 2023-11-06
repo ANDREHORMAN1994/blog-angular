@@ -25,3 +25,9 @@ div.title__container > hr {
 	width: 100%;
 	opacity: 0.1;
 }
+
+@media (max-width: 768px) {
+	div.title__container > h1 {
+		font-size: 3rem;
+	}
+}

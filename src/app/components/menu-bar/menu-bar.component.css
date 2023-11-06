@@ -66,3 +66,28 @@ div.menu-bar__container > ul > li > a:hover {
 	background-clip: text;
 	color: transparent;
 }
+
+@media (max-width: 768px) {
+	div.menu-bar__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+		margin-top: 1rem;
+		gap: 1rem;
+	}
+
+	div.menu-bar__container > ul {
+		gap: .5rem;
+		padding: 0;
+	}
+
+	div.menu-bar__container > ul > li > a, span {
+		font-size: .6rem;
+	}
+
+	div.menu-bar__container > ul > img {
+		background-color: red;
+	}
+}
